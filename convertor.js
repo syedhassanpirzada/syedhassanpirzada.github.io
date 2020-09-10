@@ -4,6 +4,7 @@ function LengthConverter(valNum) {
 function weightConverter1(valNum) {
   document.getElementById("outputKG").innerHTML = valNum / 1000;
 }
+
 function weightConverter2(valNum) {
   document.getElementById("outputG").innerHTML = valNum * 1000;
 }
