@@ -14,7 +14,7 @@
     <div class="main">
       <h1>Length Convertor</h1>
       <p>
-        <label>Cm</label>
+        <label>Centimeter</label>
         <input
           id="inputCM"
           type="text"
@@ -24,6 +24,20 @@
         />
       </p>
       <p>Meters: <span id="outputMeters"></span></p>
+    </div>
+    <div class="main">
+      
+      <p>
+        <label>Meter</label>
+        <input
+          id="inputM"
+          type="text"
+          placeholder="Meter"
+          oninput="lengthConverter2(this.value)"
+          onchange="lengthConverter2(this.value)"
+        />
+      </p>
+      <p>Centimeter: <span id="outputCentiMeters"></span></p>
     </div>
     <div class="footer">
       <h1>Convertor</h1>
