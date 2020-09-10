@@ -25,6 +25,17 @@
         />
       </p>
       <p>Kilo Grams: <span id="outputKG"></span></p>
+      
+      <label>Kilo Grams</label>
+      <input
+        id="inputKG"
+        type="text"
+        placeholder="Kilo Gram"
+        oninput="weightConverter(this.value)"
+        onchange="weightConverter(this.value)"
+      />
+    </p>
+    <p>Grams: <span id="outputG"></span></p>
     </div>
     <div class="footer">
       <h1>Convertor</h1>
