@@ -12,5 +12,5 @@ function weightConverter2(valNum) {
 }
 //Meter to Centimeter
 function lengthConverter2(valNum) {
-  document.getElementById("outputCentiMeters").innerHTML = valNum * 1000;
+  document.getElementById("outputCentiMeters").innerHTML = valNum * 100;
 }
